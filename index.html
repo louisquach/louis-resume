@@ -3,216 +3,128 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         
-        <title>trillo &mdash; Your all-in-one booking app</title>
+        <title>Louis &mdash; Resume</title>
     </head>
     <body>
         <div class="container">
 
             <header class="header">
-                <img class="logo" src="img/logo.png" alt="logo">
-
-                <form action="#" class="search">
-                    <input type="text" class="search_bar" placeholder="Search hotel">
-                    <button class="search_btn">
-                     <svg class="search_icon">
-                         <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
-                     </svg>
-                    </button>
-                </form>
-
-                <nav class="nav">
-                    <div class="navbar">
-                        <svg class="navbar-icon">
-                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
-                        </svg>
-                        <span class="navbar-span">7</span>
+                <div class="header__container">
+                    <div class="header__component">
+                        <h1 class='header__name'>Minh Luan Quach</h1>
+                        <h1 class="header__h3">web developer</h1>
                     </div>
-                    <div class="navbar">
-                        <svg class="navbar-icon">
-                            <use xlink:href="img/sprite.svg#icon-chat"></use>
-                        </svg>
-                        <span class="navbar-span">12</span>
-                    </div>
-                    <div class="nav-user">
-                        <img src="img/user.jpg" alt="user" class="nav-user-img">
-                        <span class="nav-user-name">Jonas</span>
-                    </div>
-                </nav>
+                    <div class="line__space"></div>
 
+                    <div class="nav__bar-container">
+                        <div class="nav__bar">
+                            <div class="nav__bar-item">About</div>
+                            <div class="nav__bar-item">Skills</div>
+                            <div class="nav__bar-item">education</div>
+                        </div>
+                    </div>
+                </div>
             </header>
+            
 
-            <div class="content">
-                <nav class="side-bar">
-                    <ul class="side-bar-nav">
+            <Main class="main__content">
+                <!-- about -->
+                <div class="main__content-field">
+                    <div class="main__content-intro">about</div>
 
-                        <li class="side-bar-item active">
-                            <a href="#" class="side-bar-link">
-                                <svg class="side-bar-icon">
-                                    <use xlink:href="img/sprite.svg#icon-home"></use>
-                                </svg>
-                                <span class="side-bar-text">home</span>
-                            </a>
-                        </li>
+                    <div class="main__info">
+                        <h1 class="main__info-detail">
+                            <div class='key'><b>birth:</b></div>
+                            <span class='value'>1990</span>
+                        </h1>
+                        <h1 class="main__info-detail">
+                            <span class='key'><b>phone:</b></span>
+                            <span class='value'>+61 411 446 804</span>
+                        </h1>
+                        <h1 class="main__info-detail">
+                            <span class='key'><b>email:</b></span>
+                            <span class='value'>quachminhluantn@gmail.com</span>
+                        </h1>
 
-                        <li class="side-bar-item">
-                            <a href="#" class="side-bar-link">
-                                <svg class="side-bar-icon">
-                                    <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
-                                </svg>
-                                <span class="side-bar-text">flight</span>
-                            </a>
-                        </li>
-
-                        <li class="side-bar-item">
-                            <a href="#" class="side-bar-link">
-                                <svg class="side-bar-icon">
-                                    <use xlink:href="img/sprite.svg#icon-key"></use>
-                                </svg>
-                                <span class="side-bar-text">hotel</span>
-                            </a>
-                        </li>
-
-                        <li class="side-bar-item">
-                            <a href="#" class="side-bar-link">
-                                <svg class="side-bar-icon">
-                                    <use xlink:href="img/sprite.svg#icon-map"></use>
-                                </svg>
-                                <span class="side-bar-text">features</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div class="legal">
-                        &copy; 2020 Trillo. All rights reserved.
+                        <div class="git__info">
+                            <img src="./img/giticon.png">
+                            <a class="git__info-acc" href="https://github.com/louis">https://github.com/louis</a>
+                        </div>
+    
                     </div>
-                </nav>
-                <main class="hotel-view">
+    
+                    <div class="main__detail">
+                        <img class='profile__img' src='./img/profile.png' alt='profile-img'>
+                        <p class="main__detail-content">
+                            I am Minh Luan Quach, a self-taught Web Developer. I am familiar with HTML, CSS, SCSS, Javascript, Reactjs, Redux,
+                            Hook, Jest, Firebase...
+                            I love learning, and always have a can-do attitude!
 
-                    <div class="gallery">
-                        <img src="img/hotel-1.jpg" alt="hotel 1" class="gallery-img">
-                        <img src="img/hotel-2.jpg" alt="hotel 2" class="gallery-img">
-                        <img src="img/hotel-3.jpg" alt="hotel 3" class="gallery-img">
+                        </p>
                     </div>
-                    <!-- //overview -->
-                    <div class="overview">  
-                        <h1 class="overview-heading">hotel las palmas</h1>
-                        <div class="overview-rating">
+    
+                </div>
 
-                           <div class="overview-star">
-                                <svg class="overview-star-icon">
-                                    <use xlink:href="img/sprite.svg#icon-star"></use>
-                                </svg>
-                            </div>
+                <!-- skill -->
+                <div class="main__content-field">
 
-                            <div class="overview-star">
-                                <svg class="overview-star-icon">
-                                    <use xlink:href="img/sprite.svg#icon-star"></use>
-                                </svg>
-                            </div>
-
-                            <div class="overview-star">
-                                <svg class="overview-star-icon">
-                                    <use xlink:href="img/sprite.svg#icon-star"></use>
-                                </svg>
-                            </div>
-
-                            <div class="overview-star">
-                                <svg class="overview-star-icon">
-                                    <use xlink:href="img/sprite.svg#icon-star"></use>
-                                </svg>
-                            </div>
-
-                            <div class="overview-star">
-                                <svg class="overview-star-icon">
-                                    <use xlink:href="img/sprite.svg#icon-star"></use>
-                                </svg>
-                            </div>
+                    <div class="line__skill"></div>
+                    
+                    <div class="main__content-intro">skills in</div>
+                    
+                    <div class="skill__content">
+                        <div class="skill__content-icon">
+                            <img src="./img/icons/css.png" alt="css" class="skill-icon">
                         </div>
-                        <div class="overview-location">
-                            <svg class="overview-location-icon">
-                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
-                            </svg>
-                            <button class="overview-location-btn">Albufeira, Portugal</button>
-                        </div>
-                        <div class="overview-review">
-                            <div class="overview-review-poin">8.6</div>
-                            <div class="overview-review-pp">462 votes</div>
-                        </div>
-                    </div>
-                    <div class="detail">
-                        <div class="description">
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
-                            </p>
-                            <p class="paragraph">
-                                Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
-                            </p>
-                            <ul class="list">
-                                <li class="list-item">Close to the beach</li>
-                                <li class="list-item">Breakfast included</li>
-                                <li class="list-item">Free airport shuttle</li>
-                                <li class="list-item">Free wifi in all rooms</li>
-                                <li class="list-item">Air condition and heating</li>
-                                <li class="list-item">Pet allowed</li>
-                                <li class="list-item">We speak all languages</li>
-                                <li class="list-item">Perfect for families</li>
-                            </ul>
-                            <div class="recommend">
-                                <p class="recommend-count">
-                                    Lucy and 3 other people recommend this hotel.
-                                </p>
-                                <div class="recommend-friend">
-                                    <img src="img/user-1.jpg" alt="user photo" class="recommend-photo">
-                                    <img src="img/user-2.jpg" alt="user photo" class="recommend-photo">
-                                    <img src="img/user-3.jpg" alt="user photo" class="recommend-photo">
-                                    <img src="img/user-4.jpg" alt="user photo" class="recommend-photo">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="user-reviews">
-                            <figure class="review">
-                                <blockquote class="review-content">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eos beatae eum maiores dignissimos similique fugit, aut quisquam .
-                                </blockquote>
-                                <figcaption class="review-user">
-                                    <img src="img/user-1.jpg" alt="user 1" class="review-user-pic">
-                                    <div class="review-user-info">
-                                        <p class="review-user-name">Nick Smith</p>
-                                        <p class="review-user-date">Feb 19, 1991</p>
-                                    </div>
-                                    <div class="review-user-rating">7.8</div>
-                                </figcaption>
-                            </figure>
-                            <figure class="review">
-                                <blockquote class="review-content">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eos beatae eum maiores dignissimos similique fugit, aut quisquam.
-                                </blockquote>
-                                <figcaption class="review-user">
-                                    <img src="img/user-2.jpg" alt="user 1" class="review-user-pic">
-                                    <div class="review-user-info">
-                                        <p class="review-user-name">Jane Smith</p>
-                                        <p class="review-user-date">Mar 24, 2018</p>
-                                    </div>
-                                    <div class="review-user-rating">9.3</div>
-                                </figcaption>
-                            </figure>
 
-                            <button class="btn overview-location-btn">Show All <span class="btn-span">&rarr;</span></button>
-
+                        <div class="skill__content-icon">
+                            <img src="./img/icons/html5.png" alt="html" class="skill-icon">
                         </div>
-                    </div>
-                    <div class="booking-room">
-                        <h1 class="heading-booking">Good news, there is two rooms for your selected dates!</h1>
-                        <button class="booking-btn"><span class="btn-inv">two rooms left</span> <span class="btn-vis">book now</span></button>
+
+                        <div class="skill__content-icon">
+                            <img src="./img/icons/js.png" alt="js" class="skill-icon">
+                        </div>
+
+                        <div class="skill__content-icon">
+                            <img src="./img/icons/react.png" alt="react" class="skill-icon">
+                        </div>
+
+                        <div class="skill__content-icon">
+                            <img src="./img/icons/Redux.png" alt="redux" class="skill-icon">
+                        </div>
+
+                        <div class="skill__content-icon">
+                            <img src="./img/icons/node.png" alt="node" class="skill-icon">
+                        </div>
+
                     </div>
 
-                </main>
-            </div>
+    
+                </div>
+
+
+                <!-- experience - education -->
+                <div class="main__content-field">
+
+                    <div class="line__skill"></div>
+                    
+                    <div class="main__content-intro">education</div>
+                    <div class="education">
+                        <div class="education__container">
+                            <img src="./img/css_cert.jpg" alt="advanced CSS" class="certificate">
+                            <img src="./img/react_cert.jpg" alt="advanced react" class="certificate">
+                            <img src="./img//webdev_cert.jpg" alt="full stack certificate" class="certificate">
+                        </div>
+                    </div>
+                </div>
+            </Main>
+            <footer class="footer">&#169;2020 All rights reserved.</footer>
+                
         </div>
     </body>
 </html>
