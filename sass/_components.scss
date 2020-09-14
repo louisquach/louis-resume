@@ -7,11 +7,12 @@
         position: relative;
         height: 40%;
         width: 100%;
-        background-color: #c9f1ec;
+        background-color: #e0ece4;
         margin: 4rem 0;
         padding: 1rem;
         box-shadow: .5rem .5rem 1rem rgba($color: #000000, $alpha: .8);
         border-radius: 1rem;
+        filter: brightness(1.1);
         
         &__container {
             display: flex;
@@ -72,27 +73,12 @@
                     align-items: center;
                     justify-content: center;
                     height: 4rem;
+                    padding: .5rem 2rem;
 
-                    &-item {
+                    &-applyfor {
                         color: white;
-                        display: inline-block;
-                        width: 13rem;
-                        padding: .5rem 0;
-                        text-align: center;
-                        text-transform: uppercase;
-                        font-size: 1.2rem;
-                        font-family: 'Times New Roman', Times, serif;
-                        font-weight: bold;
-                        letter-spacing: 1px;
-                        transition: all .3s;
-                        cursor: pointer;
-                        &:hover {
-                            transform: scale(1.05);
-                        }
-        
-                    }
-                    &-item:not(:last-child) {
-                        border-right: 2px solid white;
+                        font-family: 'Courier New', Courier, monospace;
+                        font-size: 2rem;
                     }
                 }
      
@@ -244,14 +230,16 @@
             font-family: 'Times New Roman', Times, serif;
             font-weight: 700;
             top: 0;
+            left: 1rem;
             transform: translateY(-50%);
             background-color: #333333;
             color: white;
+            letter-spacing: 1px;
             text-align: center;
             text-transform: uppercase;
             font-size: 1.5rem;
             padding: .5rem 0;
-            clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+            border-radius: 1rem;
         }
 
         .education {
